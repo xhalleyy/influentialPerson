@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>Halley's Influential Person</title>
+</head>
+
+<body class="homeBG">
+
+    <!-- NAVBAR  -->
+    <div class="desktop">
+        <nav class="bg-black flex nav-text justify-center gap-20 py-5 text-2xl">
+
+            <a href="index.html">
+                <div id="homeNav" class="text-white hover:text-violet-400">Home</div>
+            </a>
+            <a href="./pages/about.html">
+                <div id="aboutNav" class="text-white hover:text-violet-400">About</div>
+            </a>
+            <a href="./pages/fashion.html">
+                <div id="fashionNav" class="text-white hover:text-violet-400">Fashion</div>
+            </a>
+            <a href="./pages/reason.html">
+                <div itemref="reasonNav" class="text-white hover:text-violet-400">Reason</div>
+            </a>
+
+        </nav>
+
+        <div class="relative">
+            <div class="absolute top-44 left-36">
+                <h1 class="homeTitle text-8xl mx-14">Wizard</h1>
+                <h1 class="homeTitle2 flex align-top text-3xl gap-4 mx-14">of <span class="text-6xl">my years</span>
+                </h1>
+                <span class="relative">
+                    <span class="block absolute -inset-7 -skew-y-3 bg-violet-950" aria-hidden="true"></span>
+                    <span class="relative top-4 text-white homeTitle2 text-7xl">Alex Russo</span>
+                </span>
+            </div>
+        </div>
+
+        <div class="static">
+            <div class=" bg-white/70 absolute right-40 bottom-0 flex justify-end rounded-t-lg" style="width: 450px;">
+                <div class=" p-10 pb-20">
+                    <p class="home-text text-xl text-purple-950" style="padding-bottom: 120px;">
+                        Alex Russo is the protagonist of the Disney show, "Wizard of Waverly Place" that ran during 2007
+                        to 2012. Many kids and teens during the time, including myself, loved the show and could relate
+                        to Alex Russo!
+                        Throughout the show, she displayed her humorous, apathetic, sometimes loving traits, and many
+                        more. She is an influential person to those (aka me) who watched her show.
+                    </p>
+                </div>
+            </div>
+            <a href="./pages/about.html"
+                class="bg-sky-900 text-white px-6 py-2 text-4xl absolute z-10 right-20 bottom-20 rounded-lg about-btn-style">About
+                Alex <span class="material-symbols-outlined">
+                    arrow_forward_ios
+                </span></a>
+        </div>
+    </div>
+
+
+    <!-- MOBILE RESPONSIVENESS -->
+    <div class="sm:hidden">
+        <div class="bg-black flex justify-start py-5 ps-3">
+
+            <h1 class="text-white text-xl homeTitle2 flex self-end">Influential Wizard</h1>
+            <button type="button"
+                class="text-2xl mx-3 inline-flex items-center gap-x-2 font-semibold rounded-lg  text-white hover:text-violet-400 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+                data-hs-overlay="#hs-overlay-example">
+                <span class="material-symbols-outlined">
+                    menu
+                </span>
+            </button>
+
+            <div id="hs-overlay-example"
+                class="hs-overlay hs-overlay-open:translate-x-0 hidden -translate-x-full fixed top-0 start-0 transition-all duration-300 transform h-full max-w-xs w-full z-[80] bg-white border-e dark:bg-gray-800 dark:border-gray-700"
+                tabindex="-1">
+                <div class="flex justify-between items-center py-3 px-4 border-b dark:border-gray-700">
+                    <h3 class="font-bold homeTitle2 text-2xl text-gray-800 dark:text-white">
+                        Influential Wizard
+                    </h3>
+                    <button type="button"
+                        class="flex justify-center items-center w-7 h-7 text-sm font-semibold rounded-full border border-transparent text-gray-800 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:hover:bg-gray-700 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+                        data-hs-overlay="#hs-overlay-example">
+                        <span class="sr-only">Close modal</span>
+                        <svg class="flex-shrink-0 w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M18 6 6 18" />
+                            <path d="m6 6 12 12" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="text-center nav-text text-xl">
+                    <a href="index.html">
+                        <div id="homeNav" class=" hover:text-violet-400" style="margin: 40px 0;">Home</div>
+                    </a>
+                    <a href="./pages/about.html">
+                        <div id="aboutNav" class=" hover:text-violet-400" style="margin: 40px 0;">About</div>
+                    </a>
+                    <a href="./pages/fashion.html">
+                        <div id="fashionNav" class=" hover:text-violet-400" style="margin: 40px 0;">Fashion</div>
+                    </a>
+                    <a href="./pages/reason.html">
+                        <div itemref="reasonNav" class=" hover:text-violet-400" style="margin: 40px 0;">Reason</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="relative ">
+            <img src="./assets/wallpaper2.jpg" alt="">
+            <div class="absolute my-4 mx-4 top-7">
+                <h1 class="homeTitle text-5xl mx-2">Wizard</h1>
+                <h1 class="homeTitle2 flex align-top text-xl gap-4 mx-2">of <span class="text-3xl">my years</span></h1>
+            </div>
+        </div>
+
+        <div class="mt-10 mx-10 py-10 px-4 relative bg-blue-300 rounded-lg">
+            <div class="absolute right-7 -top-5">
+                <h1 class="py-1 px-4 bg-violet-950 text-white homeTitle2 text-3xl">Alex Russo</h1>
+            </div>
+            <h1 class="home-text text-violet-950">Alex Russo is the protagonist of the Disney show, "Wizard of Waverly
+                Place" that ran during 2007 to 2012. Many kids and teens during the time, including myself, loved the
+                show and could relate to Alex Russo!
+                Throughout the show, she displayed her humorous, apathetic, sometimes loving traits, and many more. She
+                is an influential person to those (aka me) who watched her show.</h1>
+        </div>
+
+        <div class="relative my-8">
+            <a href="./pages/about.html"
+                class="absolute flex align-middle mb-6 about-btn-style bg-sky-900 text-white right-4 px-3 py-1 text-2xl rounded-lg">About
+                Alex <span class="material-symbols-outlined">
+                    arrow_forward_ios
+                </span></a href="./pages/about.html">
+        </div>
+
+    </div>
+
+
+    <script src="./scripts/app.js"></script>
+    <script src="./node_modules/preline/dist/preline.js"></script>
+</body>
+
+</html>

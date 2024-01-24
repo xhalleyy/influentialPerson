@@ -1,0 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+/* FONTS */
+@font-face {
+    font-family: fink;
+    src: url(../assets/FinkRoman\ Regular.ttf);
+}
+
+@font-face {
+    font-family: ring;
+    src: url(../assets/ringmaker.TTF);
+}
+
+@font-face {
+    font-family: arbutus;
+    src: url(../assets/ArbutusSlab-Regular.ttf);
+}
+
+.homeTitle {
+    font-family: fink;
+}
+
+.nav-text,
+.homeTitle2,
+.about-btn-style{
+    font-family: ring;
+}
+
+.home-text,
+.fashion-text {
+    font-family: arbutus;
+}
+
+@media screen and (min-width: 768px) {
+    .homeBG {
+        background: url(../assets/selena-gomez-alex-russo-wizards.webp) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .desktop {
+        display: none;
+    }
+}
+
+/* @media screen and (min-width: 768px) {
+    .fashionBG{
+        background: url(../assets/pink-fur-as-a-background-texture-close-up-image-pink-fur-background-surface-wool-texture-ai-generated-free-photo.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+} */
+
+
+/* FASHION TITLE STYLE */
